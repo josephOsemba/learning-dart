@@ -62,6 +62,35 @@ void main() {
   print(heart_symbol);
   print(laugh_symbol);
 
+  //Arithmetic Operations Using Numbers
+  int a = 10;
+  int b = 12;
+
+  double x = 5.6;
+  double y = 7.3;
+
+  int addition = a + b;
+  int substraction = b - a;
+  int multiplicaion = a * b;
+  double division = b / a;
+
+  int intDivision = b ~/ a;
+  int modulus = b % a;
+
+  print('Addition (int): $a and $b is: $addition');
+  print('Substraction (int): $b and $a is: $substraction');
+  print(multiplicaion);
+  print(division);
+  print(intDivision);
+  print(modulus);
+
+  //using double values 
+  double doubleAddition = x + y;
+  double doubleSubstraction = y - x;
+
+  print(doubleSubstraction);
+  print(doubleAddition);
+
 
 
 
