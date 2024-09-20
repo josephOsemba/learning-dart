@@ -1,5 +1,6 @@
 void main() {
   
+  //Numbers - constitute of int and double
   int age = 40;
   int year = 2024;
   
@@ -34,20 +35,20 @@ void main() {
   //string interpolation - adding string variables to a sentence.
   print("These are my brief details: ${name + country}");
 
-  //bool
+  //bool - yes/no, true/false
   bool isOver18 = true;
   print(isOver18);
 
   print(7 < 8);
 
-  //List
+  //List - are similar to arrays, stores ordered collection of objects
   List mylist = [1, 2, 3, "Jackson"];
   mylist.add(65);
   mylist.remove(3);
 
   print(mylist);
 
-  //Maps
+  //Maps - are dynamic collections that represnts a set of values as key value pairs
   Map <String, int> ages = {
     'Alice': 30,
     'John' : 21,
@@ -55,7 +56,7 @@ void main() {
   };
   print("Here are the students ages: $ages");
 
-  //RUNES
+  //RUNES - an integer used to represnt any unicode code point
   var heart_symbol = '\u2665';
   var laugh_symbol = '\u1f800';
 
@@ -79,8 +80,10 @@ void main() {
 
   print('Addition (int): $a and $b is: $addition');
   print('Substraction (int): $b and $a is: $substraction');
-  print(multiplicaion);
-  print(division);
+  print('Multiplication (int): $a and $b is: $multiplicaion');
+  print('Division (double): $b and $a is: $division');
+
+  //try the remaining to test yourself.
   print(intDivision);
   print(modulus);
 
